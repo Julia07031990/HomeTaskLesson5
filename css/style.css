@@ -84,14 +84,18 @@ body {
 	cursor: pointer;
 	transition-duration: 0.5s;
 }
-.iconContainer {
-	margin-top: 20px;
+ .iconContainer {
+ 	margin-left: -5px;
+ 	justify-content: center;
+	display: flex;
+	margin-top: 15px;
 }
-.iconContainer > img {
+.ico {
+	margin-left: 7px;
 	margin-bottom: 10px;
 	padding: 8px;
 }
-.iconContainer >  img:hover {
+.ico:hover {
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-color: #c266ff;
@@ -99,7 +103,7 @@ body {
 	cursor: pointer;
 	border-radius: 10px;
 }
-.iconContainer >  img:active {
+.ico:active {
 	background: #730099;
 	transition-duration: 0.5s;
 }
@@ -141,7 +145,7 @@ body {
 }
 .myButton {
 	margin-top: 80px;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 }
 .followButton {
 	color: #fff;
@@ -200,4 +204,7 @@ input[type=submit]:active, input[type=reset]:active{
 #img1, #img2, #img3, #img4{
 	border-right: 1.5px solid #a6a6a6;
   	height: 32px;
+}
+#img5 {
+	height: 32px;
 }
