@@ -5,6 +5,7 @@
 	<title>HomeTaskCard</title>
 	<link rel="stylesheet" href="./css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Caveat:400,700|Dancing+Script:600,700|Satisfy&display=swap&subset=latin-ext" rel="stylesheet">
+	
 </head>
 <body>
 	<div class="userCardContainer">
@@ -28,14 +29,19 @@
 				<img src="./images/more.png" alt="">
 			</div>
 			<div class="myButton">
-				<a href="#" class='followButton'>Follow</a>
+				<a href="#" id="follow" class='followButton'>Follow</a>
 			</div>
 			<hr>
 			<div class="sentMessage">
-				<p><textarea name="message"  cols="40" rows="10" placeholder="Type your message.."></textarea></p>
-				<p><input type="submit" value="Send">
-   				<input type="reset" value="Clear"></p>
+				<p><textarea type='text' name="message"  cols="40" rows="10" id="textInput" placeholder="Type your message..">
+				</textarea></p>
+
+				<p>
+					<input type="submit" id="sentMessage" value="Send">
+   					<input type="reset" id='clearButton' value="Clear">
+   				</p>
 			</div>
+
 			<div class="iconContainer">
 				<div class="ico" id="img1"><a href="#">
 					<img src="./images/icons/telegram.png" alt="" height="32px">
@@ -52,12 +58,13 @@
 				<div class="ico" id="img4"><a href="#">
 					<img src="./images/icons/twitter.png" alt="">
 				</a></div>
-				
+
 				<div class="ico" id="img5"><a href="#">
 					<img src="./images/icons/facebook.png" alt="">
 				</a></div>
 			</div>
 		</div>
 	</div>
+	<script src="./javascript/script.js"></script>
 </body>
 </html>
