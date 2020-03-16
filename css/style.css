@@ -46,6 +46,7 @@ body {
 	width: 168px;
 	height: 168px;
 	transition-duration: 0.7s;
+	margin-top: -84px;
 }
 .userAvatar > img:active {
 	height: 120%;
