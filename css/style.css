@@ -152,6 +152,7 @@ body {
 .messageWrap > hr {
 	width: 70%;
 	border: 0.5px solid #595959;
+	margin-bottom: -5px;
 }
 .myButton {
 	padding: 6px 5px;
@@ -175,7 +176,7 @@ body {
 	transition-duration: 0.5s;
 }
 .sendMessage {
-	margin-top: 20px;
+	margin-top: 15px;
 	display: block;
 	position: relative;
 }
