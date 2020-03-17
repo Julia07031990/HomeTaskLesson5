@@ -16,6 +16,10 @@ document.getElementById('messageArea').onclick = function(event) {
 		for (var i = 0; i < subm.length; i++) {
 		subm[i].style.display = 'block';
 	}
+	// var hbut = document.getElementsByClassName("hideBar");
+	// 	for (var i = 0; i < hbut.length; i++) {
+	// 	hbut[i].style.display = 'none';
+	// }
 }
 } 
 
@@ -32,5 +36,8 @@ function closeMenu () {
 	for (var i = 0; i < subm.length; i++) {
 		subm[i].style.display = 'none';
 	}
-
+	// var hbut = document.getElementsByClassName("hideBar");
+	// 	for (var i = 0; i < hbut.length; i++) {
+	// 	hbut[i].style.display = 'block';
+	// }
 }
