@@ -27,19 +27,29 @@
 				<img src="./images/archer.jpg" alt="">
 				<img src="./images/berserker.jpg" alt="">
 				<img src="./images/more.png" alt="">
-			</div>
-			<div class="myButton">
-				<a href="#" id="follow" class='followButton'>Follow</a>
-			</div>
-			<hr>
-			<div class="sentMessage">
+			</div>		
+
+			<div class="sendMessage" id="messageArea">
+				<div class="buttonHolder">
+				<div class="myButton">
+					<a href="#" id="follow" class='followButton'>Follow
+					</a>
+				</div>
+				<div class="hideBar" id="hiddenBar">
+					Text us!
+				</div>
+				</div>
+				<div class="messageWrap">
+				<hr>
 				<p><textarea type='text' name="message"  cols="40" rows="10" id="textInput" placeholder="Type your message..">
 				</textarea></p>
 
 				<p>
 					<input type="submit" id="sentMessage" value="Send">
    					<input type="reset" id='clearButton' value="Clear">
+   					<input type="reset" class='closeMenu'value='Close'>
    				</p>
+   				</div>
 			</div>
 
 			<div class="iconContainer">
