@@ -56,6 +56,11 @@ body {
 	cursor: pointer;
 	transition-duration: 0.7s;
 }
+.followerWraper {
+	padding: 5px;
+	height: 60px;
+	width: 100%;
+}
 .followerContainer {
 	margin-bottom: 5px;
 	margin-left: 25px;
@@ -71,8 +76,9 @@ body {
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
+	cursor: pointer;
 }
-.followerContainer > img:hover {
+.followerContainer > img:hover{
 	transition-duration: 0.5s;
 	border: 3px solid red;
 	opacity: 0.8;
@@ -148,12 +154,11 @@ body {
 	border: 0.5px solid #595959;
 }
 .myButton {
-	margin-top: 80px;
-	margin-bottom: 20px;
+	padding: 6px 5px;
 }
 .followButton {
 	font-size: 15pt;
-	padding: 6px 32px;
+	padding: 6px 25px;
 	color: #737373;
 	text-decoration: none;
 	user-select: none;
@@ -170,6 +175,7 @@ body {
 	transition-duration: 0.5s;
 }
 .sendMessage {
+	margin-top: 20px;
 	display: block;
 	position: relative;
 }
@@ -222,8 +228,6 @@ input[type=submit]:active, input[type=reset]:active{
 	height: 32px;
 }
 .hideBar {
-	margin-left: 5px;
-	margin-top: 74px;
 	height: 30px;
 	font-size: 15pt;
 	padding: 5px 25px;
@@ -244,7 +248,8 @@ input[type=submit]:active, input[type=reset]:active{
 	transition-duration: 0.5s;
 }
 .buttonHolder {
+	justify-content: center;
+	text-align: center;
 	display: flex;
 	position: relative;
-	margin-bottom: -10px;
 }
