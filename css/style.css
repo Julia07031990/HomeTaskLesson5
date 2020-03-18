@@ -22,6 +22,9 @@ body {
 .userInfoContainer > * {
 	margin: 0 auto;
 }
+
+/* HEADER/AVATAR HOLDER */
+
 .userCardHeader {
 }
 .userAvatar {
@@ -56,10 +59,13 @@ body {
 	cursor: pointer;
 	transition-duration: 0.7s;
 }
+
+/* FOLLOWER CONTAINER!! */
+
 .followerWraper {
 	padding: 5px;
 	height: 60px;
-	width: 100%;
+	width: 98%;
 }
 .followerContainer {
 	margin-bottom: 5px;
@@ -91,8 +97,11 @@ body {
 	cursor: pointer;
 	transition-duration: 0.5s;
 }
+
+/*SOCIAL NETWORKS ICONS*/
+
  .iconContainer {
- 	margin-left: -5px;
+ 	margin-left: 5px;
  	justify-content: center;
 	display: flex;
 	margin-top: 15px;
@@ -114,6 +123,16 @@ body {
 	background: #730099;
 	transition-duration: 0.5s;
 }
+#img1, #img2, #img3, #img4{
+	border-right: 1.5px solid #a6a6a6;
+  	height: 32px;
+}
+#img5 {
+	height: 32px;
+}
+
+/* STRINGS */
+
 .userInfoContainer > h1 {
 	color: #737373;
 	text-align: center;
@@ -149,11 +168,9 @@ body {
 	color: #737373;
 	font-size: 27pt;
 }
-.messageWrap > hr {
-	width: 70%;
-	border: 0.5px solid #595959;
-	margin-bottom: -5px;
-}
+
+/* ALL BUTTONS */
+
 .myButton {
 	padding: 6px 5px;
 }
@@ -175,39 +192,18 @@ body {
 	background: #cccccc;
 	transition-duration: 0.5s;
 }
-.sendMessage {
-	margin-top: 15px;
-	display: block;
-	position: relative;
-}
-.messageWrap {
-	display: none;
-}
-textarea {
-  width: 75%;
-  height: 100px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  font-size: 16px;
-  resize: none;
-  font-family: 'Dancing Script', cursive;
-  font-size: 15pt;
-}
 input[type=submit], input[type=reset] {
 	width: 23%;
-  background-color:#9933ff;
-  border-radius: 5px;
-  border: none;
-  color: white;
-  padding: 10px 5px;
-  text-decoration: none;
-  margin: 2px 2px;
+ 	background-color:#9933ff;
+ 	border-radius: 5px;
+ 	border: none;
+ 	color: white;
+ 	padding: 10px 5px;
+ 	text-decoration: none;
+ 	margin: 2px 2px;
 	margin-top: -30px;
-  cursor: pointer;
-  font-family: 'Satisfy', cursive;
+ 	cursor: pointer;
+ 	font-family: 'Satisfy', cursive;
 }
 input[type=submit]:hover, input[type=reset]:hover{
 	background: #bf00ff;
@@ -217,27 +213,15 @@ input[type=submit]:active, input[type=reset]:active{
 	background: #730099;
 	transition-duration: 0.5s;
 }
-.vl {
-  border-left: 2px solid #595959;
-  height: 32px;
-}
-#img1, #img2, #img3, #img4{
-	border-right: 1.5px solid #a6a6a6;
-  	height: 32px;
-}
-#img5 {
-	height: 32px;
-}
 .hideBar {
 	height: 30px;
 	font-size: 15pt;
-	padding: 5px 25px;
+	padding: 5px 20px;
 	border-radius: 5px;
 	font-family: 'Satisfy', cursive;
 	color: #737373;
 	cursor: pointer;
 	width: 60px;
-	/*margin-left: 145px;*/
 	border-bottom: 2px solid #a6a6a6;
 }
 .hideBar:hover {
@@ -253,4 +237,52 @@ input[type=submit]:active, input[type=reset]:active{
 	text-align: center;
 	display: flex;
 	position: relative;
+}
+
+/* TEXTAREA */
+.sendMessage {
+	margin-top: 15px;
+	display: block;
+	position: relative;
+}
+.messageWrap {
+	display: none;
+}
+
+.messageWrap > hr {
+	width: 70%;
+	border: 0.5px solid #595959;
+	margin-bottom: 10px;
+}
+.messageWrap > p {
+	margin: 12px;
+}
+input[type=username] {
+	font-family: 'Satisfy', cursive;
+	margin-left: 58px;
+	width: 70%;
+	box-sizing: border-box;
+	padding: 8px;
+	display: block;
+	border: none;
+	border-radius: 3px;
+	border-bottom: 1.5px solid #a6a6a6;
+	margin-bottom: -5px;
+}
+input[type=username]:hover {
+	background-color: #e6e6e6;
+	transition-duration: 0.5s;
+}
+textarea {
+  width: 75%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  font-family: 'Dancing Script', cursive;
+  font-size: 15pt;
 }
