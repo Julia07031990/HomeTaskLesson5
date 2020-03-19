@@ -5,7 +5,7 @@ document.getElementById("clearButton").onclick = function(e) {
 }
 document.getElementById("sentMessage").onclick = function(e) {
 	var userName = document.getElementById('fname').value;
-	alert("Hi,"+userName+","+ " your message is sent!");
+	alert("Hi, " +userName+", "+ " your message is sent!");
 	document.getElementById("textInput").value = "";
 	document.getElementById('fname').value = '';
 	document.getElementById('lname').value = '';

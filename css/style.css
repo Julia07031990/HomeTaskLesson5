@@ -65,32 +65,39 @@ body {
 .followerWraper {
 	padding: 5px;
 	height: 60px;
-	width: 98%;
+	width: 97%;
+	display: flex;
+	justify-content: center;
 }
 .followerContainer {
+	border-radius: 50%;
 	margin-bottom: 5px;
-	margin-left: 25px;
-	float: left;
-	text-align: center;
+	margin-left: 10px;
 	display: flex;
 	width: 60px;
 	height: 60px;
 }
-.followerContainer > img {
-	margin-left: 7px;
+#followref{
+	border-radius: 50%;
+	object-fit: cover;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+}
+#followico {
 	border-radius: 50%;
 	object-fit: cover;
 	width: 100%;
 	height: 100%;
 	cursor: pointer;
 }
-.followerContainer > img:hover{
+.followerContainer:hover{
 	transition-duration: 0.5s;
 	border: 3px solid red;
 	opacity: 0.8;
 	cursor: pointer;
 }
-.followerContainer > img:active {
+.followerContainer:active {
 	border: 4px solid #730099;
 	background-color: #730099;
 	opacity: 0.8;
@@ -101,7 +108,6 @@ body {
 /*SOCIAL NETWORKS ICONS*/
 
  .iconContainer {
- 	margin-left: 5px;
  	justify-content: center;
 	display: flex;
 	margin-top: 15px;
@@ -214,6 +220,7 @@ input[type=submit]:active, input[type=reset]:active{
 	transition-duration: 0.5s;
 }
 .hideBar {
+	/*width: 60px;*/
 	height: 30px;
 	font-size: 15pt;
 	padding: 5px 20px;
@@ -221,7 +228,6 @@ input[type=submit]:active, input[type=reset]:active{
 	font-family: 'Satisfy', cursive;
 	color: #737373;
 	cursor: pointer;
-	width: 60px;
 	border-bottom: 2px solid #a6a6a6;
 }
 .hideBar:hover {
@@ -240,6 +246,7 @@ input[type=submit]:active, input[type=reset]:active{
 }
 
 /* TEXTAREA */
+
 .sendMessage {
 	margin-top: 15px;
 	display: block;
